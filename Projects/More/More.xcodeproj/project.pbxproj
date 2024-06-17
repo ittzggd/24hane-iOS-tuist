@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17B9841B76435A7402B1479C /* NetworkManage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3EF6255539F737CFA4B5294B /* NetworkManage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2261E1BC52129CEC42909869 /* HaneError.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 30D12AEBE7153A206E3ECA81 /* HaneError.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2A67FA0C5132AE9A1719DE09 /* TuistBundle+More.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9A521A23A8E485759D5D63 /* TuistBundle+More.swift */; };
+		2E55D55613F9CD59C1A0DB6C /* LogoutButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D8B34FF5B8E7B4B34D4068 /* LogoutButton.swift */; };
+		33B24C13989133B13CCDC8F8 /* Tapbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2B2F307D902664D5368A6 /* Tapbar.swift */; };
+		61FFC1D3917B208A4CD8D919 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93563896C69C16393F20B112 /* ErrorView.swift */; };
+		7B502CD9F4996A826E37B96D /* ProgressToReissue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C471DC77C9D2DD6283DF977B /* ProgressToReissue.swift */; };
+		7E9BFCE383EE5A81E2169A15 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 450B2D29763E6E8B493F091F /* Preview Assets.xcassets */; };
+		80615AB97E70F0CC9E69384A /* ReissuanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257E3DF5ECAD2CB7073FC8EE /* ReissuanceView.swift */; };
+		98B93DA4E5968D9DF694ADED /* HowToReissue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED49AD1A51FD53457ABA80F /* HowToReissue.swift */; };
+		99CF21E3D3CB9A0B9A016468 /* HaneUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3011282483848FE78D785036 /* HaneUtils.framework */; };
+		9A8378B14462BB8157514ADE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E062600733DF3EEC22103FFE /* Assets.xcassets */; };
+		A54F99D48A198CAE87BE5062 /* AlertButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D5A8E9E68F5F87B869EE48 /* AlertButtons.swift */; };
+		AF98ED3F0E66331AEA282291 /* HaneUtils.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3011282483848FE78D785036 /* HaneUtils.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B12063E6545BA9168DC5BB91 /* HaneError.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D12AEBE7153A206E3ECA81 /* HaneError.framework */; };
+		B6E51A5FAF2FC04FD43A7212 /* ListItemButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9A814AB856A64316E2D8CA /* ListItemButton.swift */; };
+		BAA0395B751BA9750C0F4CC5 /* NetworkManage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EF6255539F737CFA4B5294B /* NetworkManage.framework */; };
+		BEC1062C954CBBEE492043FE /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C737781CBE7F62F6482BE01F /* MoreView.swift */; };
+		C18D4B1E98216646EB897066 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729C9F1EC7E2CEF4B81AFDF9 /* AlertView.swift */; };
+		E01D9DA38F2ED65DA9B15490 /* CardProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CA5F6C765D86371EBB22B1 /* CardProgressView.swift */; };
+		E82C5C7BF067326AFC985CB7 /* MoreViewFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E319079BB0B9EBE4F85281 /* MoreViewFooter.swift */; };
+		EB1DAC35B3B21A57F21BE5C6 /* TuistAssets+More.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2BE01276CC49C60CF4739F /* TuistAssets+More.swift */; };
+		FDA0966C8A6DD328947F2491 /* ReissueButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6112F955E4FA66FF37E81912 /* ReissueButton.swift */; };
+		FDB7FD648828FC226A754F7B /* ReissueButtonAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF0303101C487DCE74EEEE8 /* ReissueButtonAppearance.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		32AD79AA569AECA3475D9B7E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2261E1BC52129CEC42909869 /* HaneError.framework in Embed Frameworks */,
+				AF98ED3F0E66331AEA282291 /* HaneUtils.framework in Embed Frameworks */,
+				17B9841B76435A7402B1479C /* NetworkManage.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		17D5A8E9E68F5F87B869EE48 /* AlertButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertButtons.swift; sourceTree = "<group>"; };
+		257E3DF5ECAD2CB7073FC8EE /* ReissuanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReissuanceView.swift; sourceTree = "<group>"; };
+		3011282483848FE78D785036 /* HaneUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HaneUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D12AEBE7153A206E3ECA81 /* HaneError.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HaneError.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF6255539F737CFA4B5294B /* NetworkManage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NetworkManage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		450B2D29763E6E8B493F091F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		50E319079BB0B9EBE4F85281 /* MoreViewFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewFooter.swift; sourceTree = "<group>"; };
+		6112F955E4FA66FF37E81912 /* ReissueButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReissueButton.swift; sourceTree = "<group>"; };
+		729C9F1EC7E2CEF4B81AFDF9 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		93563896C69C16393F20B112 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		99CA5F6C765D86371EBB22B1 /* CardProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardProgressView.swift; sourceTree = "<group>"; };
+		99D8B34FF5B8E7B4B34D4068 /* LogoutButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutButton.swift; sourceTree = "<group>"; };
+		9ED49AD1A51FD53457ABA80F /* HowToReissue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToReissue.swift; sourceTree = "<group>"; };
+		AEF0303101C487DCE74EEEE8 /* ReissueButtonAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReissueButtonAppearance.swift; sourceTree = "<group>"; };
+		BA9A521A23A8E485759D5D63 /* TuistBundle+More.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+More.swift"; sourceTree = "<group>"; };
+		BF6F426EB8642DD1AD93EF13 /* More-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "More-Info.plist"; sourceTree = "<group>"; };
+		C471DC77C9D2DD6283DF977B /* ProgressToReissue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressToReissue.swift; sourceTree = "<group>"; };
+		C737781CBE7F62F6482BE01F /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
+		E062600733DF3EEC22103FFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E63A5AD996169BAD408DFE71 /* More.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = More.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7B2B2F307D902664D5368A6 /* Tapbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tapbar.swift; sourceTree = "<group>"; };
+		EC9A814AB856A64316E2D8CA /* ListItemButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemButton.swift; sourceTree = "<group>"; };
+		FE2BE01276CC49C60CF4739F /* TuistAssets+More.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+More.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		593C03652CE45C147E19F597 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B12063E6545BA9168DC5BB91 /* HaneError.framework in Frameworks */,
+				99CF21E3D3CB9A0B9A016468 /* HaneUtils.framework in Frameworks */,
+				BAA0395B751BA9750C0F4CC5 /* NetworkManage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08B50664E87D63ACD85B369B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				52F02F7F8A8A332C9B79AC56 /* Preview Content */,
+				E062600733DF3EEC22103FFE /* Assets.xcassets */,
+			);
+			name = Resources;
+			path = ../Resources;
+			sourceTree = "<group>";
+		};
+		21DCD936F0545382574201A7 = {
+			isa = PBXGroup;
+			children = (
+				67F2BD55C08ED6406D6B7D6B /* Project */,
+				60AD4AE9678456800F97353E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2393AC7A016A074E8DCA9335 /* Derived */ = {
+			isa = PBXGroup;
+			children = (
+				BA68CDD5229FB4C6CB6E6379 /* InfoPlists */,
+				42073A7822FF98B63E1C6F4F /* Sources */,
+			);
+			path = Derived;
+			sourceTree = "<group>";
+		};
+		42073A7822FF98B63E1C6F4F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FE2BE01276CC49C60CF4739F /* TuistAssets+More.swift */,
+				BA9A521A23A8E485759D5D63 /* TuistBundle+More.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		52F02F7F8A8A332C9B79AC56 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				450B2D29763E6E8B493F091F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5946A3AA483CDD6E73B42ACE /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B6126CAF23A47DCB34B581FF /* AlertViewComponent */,
+				A1A7B59A505A76A0130D48C9 /* MoreViewComponent */,
+				FEB1579930C83637E73F2051 /* ReissuanceComponent */,
+				729C9F1EC7E2CEF4B81AFDF9 /* AlertView.swift */,
+				99CA5F6C765D86371EBB22B1 /* CardProgressView.swift */,
+				93563896C69C16393F20B112 /* ErrorView.swift */,
+				C737781CBE7F62F6482BE01F /* MoreView.swift */,
+				257E3DF5ECAD2CB7073FC8EE /* ReissuanceView.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		60AD4AE9678456800F97353E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30D12AEBE7153A206E3ECA81 /* HaneError.framework */,
+				3011282483848FE78D785036 /* HaneUtils.framework */,
+				E63A5AD996169BAD408DFE71 /* More.app */,
+				3EF6255539F737CFA4B5294B /* NetworkManage.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67F2BD55C08ED6406D6B7D6B /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				2393AC7A016A074E8DCA9335 /* Derived */,
+				08B50664E87D63ACD85B369B /* Resources */,
+				5946A3AA483CDD6E73B42ACE /* Sources */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		A1A7B59A505A76A0130D48C9 /* MoreViewComponent */ = {
+			isa = PBXGroup;
+			children = (
+				EC9A814AB856A64316E2D8CA /* ListItemButton.swift */,
+				99D8B34FF5B8E7B4B34D4068 /* LogoutButton.swift */,
+				50E319079BB0B9EBE4F85281 /* MoreViewFooter.swift */,
+				AEF0303101C487DCE74EEEE8 /* ReissueButtonAppearance.swift */,
+			);
+			path = MoreViewComponent;
+			sourceTree = "<group>";
+		};
+		B6126CAF23A47DCB34B581FF /* AlertViewComponent */ = {
+			isa = PBXGroup;
+			children = (
+				17D5A8E9E68F5F87B869EE48 /* AlertButtons.swift */,
+			);
+			path = AlertViewComponent;
+			sourceTree = "<group>";
+		};
+		BA68CDD5229FB4C6CB6E6379 /* InfoPlists */ = {
+			isa = PBXGroup;
+			children = (
+				BF6F426EB8642DD1AD93EF13 /* More-Info.plist */,
+			);
+			path = InfoPlists;
+			sourceTree = "<group>";
+		};
+		FEB1579930C83637E73F2051 /* ReissuanceComponent */ = {
+			isa = PBXGroup;
+			children = (
+				9ED49AD1A51FD53457ABA80F /* HowToReissue.swift */,
+				C471DC77C9D2DD6283DF977B /* ProgressToReissue.swift */,
+				6112F955E4FA66FF37E81912 /* ReissueButton.swift */,
+				E7B2B2F307D902664D5368A6 /* Tapbar.swift */,
+			);
+			path = ReissuanceComponent;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B62D369236B992A982308107 /* More */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CDAB6AAB742C99BECDAB6F8 /* Build configuration list for PBXNativeTarget "More" */;
+			buildPhases = (
+				B21486CE74B26CD68884A60D /* Sources */,
+				B0505E4A44D1AA80101DA2EA /* Resources */,
+				32AD79AA569AECA3475D9B7E /* Embed Frameworks */,
+				593C03652CE45C147E19F597 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = More;
+			productName = More;
+			productReference = E63A5AD996169BAD408DFE71 /* More.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		383307CCCD16FE71FE59AED7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = ACD3097F0575A8698F52D622 /* Build configuration list for PBXProject "More" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 21DCD936F0545382574201A7;
+			productRefGroup = 60AD4AE9678456800F97353E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B62D369236B992A982308107 /* More */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0505E4A44D1AA80101DA2EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A8378B14462BB8157514ADE /* Assets.xcassets in Resources */,
+				7E9BFCE383EE5A81E2169A15 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B21486CE74B26CD68884A60D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB1DAC35B3B21A57F21BE5C6 /* TuistAssets+More.swift in Sources */,
+				2A67FA0C5132AE9A1719DE09 /* TuistBundle+More.swift in Sources */,
+				C18D4B1E98216646EB897066 /* AlertView.swift in Sources */,
+				A54F99D48A198CAE87BE5062 /* AlertButtons.swift in Sources */,
+				E01D9DA38F2ED65DA9B15490 /* CardProgressView.swift in Sources */,
+				61FFC1D3917B208A4CD8D919 /* ErrorView.swift in Sources */,
+				BEC1062C954CBBEE492043FE /* MoreView.swift in Sources */,
+				B6E51A5FAF2FC04FD43A7212 /* ListItemButton.swift in Sources */,
+				2E55D55613F9CD59C1A0DB6C /* LogoutButton.swift in Sources */,
+				E82C5C7BF067326AFC985CB7 /* MoreViewFooter.swift in Sources */,
+				FDB7FD648828FC226A754F7B /* ReissueButtonAppearance.swift in Sources */,
+				98B93DA4E5968D9DF694ADED /* HowToReissue.swift in Sources */,
+				7B502CD9F4996A826E37B96D /* ProgressToReissue.swift in Sources */,
+				FDA0966C8A6DD328947F2491 /* ReissueButton.swift in Sources */,
+				33B24C13989133B13CCDC8F8 /* Tapbar.swift in Sources */,
+				80615AB97E70F0CC9E69384A /* ReissuanceView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		838912B65BEA37BD101D2EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/More-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.hejang.-4HANE";
+				PRODUCT_NAME = More;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A980BA9223CB45FE53CB791B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E10B6677353EDB7549A3CADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/More-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.hejang.-4HANE";
+				PRODUCT_NAME = More;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F2F0ECE47D2CB9B92B052D76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CDAB6AAB742C99BECDAB6F8 /* Build configuration list for PBXNativeTarget "More" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				838912B65BEA37BD101D2EAA /* Debug */,
+				E10B6677353EDB7549A3CADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACD3097F0575A8698F52D622 /* Build configuration list for PBXProject "More" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A980BA9223CB45FE53CB791B /* Debug */,
+				F2F0ECE47D2CB9B92B052D76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 383307CCCD16FE71FE59AED7 /* Project object */;
+}

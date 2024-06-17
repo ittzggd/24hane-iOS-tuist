@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:Projects"
+      name = "Projects">
+      <FileRef
+         location = "group:Calendar/Calendar.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:HaneError/HaneError.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:HaneUtils/HaneUtils.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Home/Home.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:More/More.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:NetworkManage/NetworkManage.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:WidgetExtension/Widget.xcodeproj">
+      </FileRef>
+   </Group>
+</Workspace>
